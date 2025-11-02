@@ -27,13 +27,29 @@
   background-position: center center;
 }
 
-/* Height for devices larger than 576px */
-@media (min-width: 992px) {
-  #introCarousel {
-    margin-top: -58.59px;
-  }
-}
-
 .navbar .nav-link {
   color: #fff !important;
+}
+
+.logo {
+  width: 100px;
+  height: 30px;
+}
+
+.mb-3 {
+  font-weight: bold;
+}
+
+/* Améliorer la navbar sur mobile */
+@media (max-width: 991px) {
+  .navbar {
+    background: rgba(0, 0, 0, 0) !important;
+  }
+  
+  .navbar-collapse {
+    background: rgba(0, 0, 0, 0);
+    padding: 1rem;
+    margin-top: 0.5rem;
+    border-radius: 0.5rem;
+  }
 }
