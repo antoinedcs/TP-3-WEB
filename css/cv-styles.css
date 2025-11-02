@@ -1,0 +1,176 @@
+/* CV Styles */
+.cv-section {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  min-height: 100vh;
+  padding-top: 100px;
+}
+
+.cv-card {
+  background: white;
+  border-radius: 15px;
+  padding: 30px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.cv-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.2);
+}
+
+.section-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 25px;
+  padding-bottom: 10px;
+  border-bottom: 3px solid #667eea;
+}
+
+.contact-info {
+  font-size: 1.1rem;
+  color: white;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.contact-info i {
+  margin-right: 8px;
+}
+
+/* Timeline Items */
+.timeline-item {
+  position: relative;
+  padding-left: 30px;
+  margin-bottom: 30px;
+  border-left: 3px solid #667eea;
+}
+
+.timeline-item:last-child {
+  margin-bottom: 0;
+}
+
+.timeline-item::before {
+  content: '';
+  position: absolute;
+  left: -8px;
+  top: 0;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background: #667eea;
+  border: 3px solid white;
+}
+
+.timeline-date {
+  display: inline-block;
+  background: #667eea;
+  color: white;
+  padding: 5px 15px;
+  border-radius: 20px;
+  font-size: 0.9rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.institution {
+  color: #6c757d;
+  font-style: italic;
+  margin-top: 10px;
+}
+
+.timeline-item ul {
+  margin-top: 10px;
+  padding-left: 20px;
+}
+
+.timeline-item li {
+  margin-bottom: 8px;
+  color: #495057;
+}
+
+/* Skills */
+.skill-category {
+  margin-bottom: 20px;
+}
+
+.skill-bar {
+  height: 10px;
+  background: #e9ecef;
+  border-radius: 10px;
+  overflow: hidden;
+  margin-bottom: 5px;
+}
+
+.skill-progress {
+  height: 100%;
+  background: linear-gradient(90deg, #667eea 0%, #764ba2 100%);
+  border-radius: 10px;
+  transition: width 0.5s ease;
+}
+
+/* Languages */
+.language-item {
+  margin-bottom: 15px;
+}
+
+/* Soft Skills */
+.soft-skills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+}
+
+/* Interests */
+.interest-item {
+  padding: 10px 0;
+  border-bottom: 1px solid #e9ecef;
+  font-size: 1rem;
+}
+
+.interest-item:last-child {
+  border-bottom: none;
+}
+
+/* Responsive */
+@media (max-width: 991px) {
+  .cv-section {
+    padding-top: 80px;
+  }
+  
+  .cv-card {
+    padding: 20px;
+  }
+  
+  .section-title {
+    font-size: 1.3rem;
+  }
+  
+  h1.display-4 {
+    font-size: 2rem;
+  }
+  
+  .contact-info {
+    font-size: 0.9rem;
+  }
+  
+  .contact-info span {
+    display: block;
+    margin-bottom: 10px;
+  }
+}
+
+/* Impression */
+@media print {
+  .navbar {
+    display: none;
+  }
+  
+  .cv-section {
+    background: white;
+    padding-top: 0;
+  }
+  
+  .cv-card {
+    box-shadow: none;
+    page-break-inside: avoid;
+  }
+}
