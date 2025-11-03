@@ -1,149 +1,173 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Bootstrap Site</title>
-  
+
   <!-- Bootstrap 5.3 CSS -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
-  
+
   <!-- Font Awesome pour les icônes -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-  
+
   <!-- Votre CSS personnalisé -->
   <link rel="stylesheet" href="css/styles.css">
 </head>
+
 <body>
-<!--Main Navigation-->
-<header>
-<!-- Navbar -->
-<nav class="navbar navbar-expand-lg navbar-dark" style="z-index: 2000; position: absolute; width: 100%; top: 0;">
-  <div class="container-fluid">
-    <!-- Navbar brand -->
-    <a class="navbar-brand" href="index.html">
-      <img class="logo" src="img/jojo_logo.png" alt="logo">
-    </a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarExample01"
-      aria-controls="navbarExample01" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarExample01">
-      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-        <li class="nav-item active">
-          <a class="nav-link" aria-current="page" href="index.html">Accueil</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" aria-current="page" href="game.html">All Star Battle R</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" aria-current="page" href="news.html">Actualités</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" aria-current="page" href="contact.html">Contact</a>
-        </li>
-      </ul>
+  <!--Main Navigation-->
+  <header>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark" style="z-index: 2000; position: absolute; width: 100%; top: 0;">
+      <div class="container-fluid">
+        <!-- Navbar brand -->
+        <a class="navbar-brand" href="index.html">
+          <img class="logo" src="img/jojo_logo.png" alt="logo">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarExample01"
+          aria-controls="navbarExample01" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarExample01">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item active">
+              <a class="nav-link" aria-current="page" href="index.html">Accueil</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="story.html">Histoire</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="game.html">All Star Battle R</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="news.html">Actualités</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="contact.html">Contact</a>
+            </li>
+          </ul>
 
-      <ul class="navbar-nav list-inline">
-        <!-- Icons -->
-        <li class="nav-item">
-          <a class="nav-link" href="https://youtu.be/hmpJqJLsR48?si=shiN_7ur8yquwxr_" rel="nofollow"
-            target="_blank">
-            <i class="fab fa-youtube"></i>
-          </a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="https://www.facebook.com/groups/jojosbizarreadventuregroup/" rel="nofollow" target="_blank">
-            <i class="fab fa-facebook-f"></i>
-          </a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="https://x.com/araki_jojo?s=21" rel="nofollow" target="_blank">
-            <i class="fab fa-twitter"></i>
-          </a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="https://github.com/antoinedcs" rel="nofollow" target="_blank">
-            <i class="fab fa-github"></i>
-          </a>
-        </li>
-      </ul>
-    </div>
-  </div>
-</nav>
-<!-- Navbar -->
-
-  <!-- Carousel wrapper -->
-  <div id="introCarousel" class="carousel slide carousel-fade shadow-2-strong" data-bs-ride="carousel">
-    <!-- Indicators -->
-    <div class="carousel-indicators">
-      <button type="button" data-bs-target="#introCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-      <button type="button" data-bs-target="#introCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
-      <button type="button" data-bs-target="#introCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
-    </div>
-
-    <!-- Inner -->
-    <div class="carousel-inner">
-      <!-- Single item -->
-      <div class="carousel-item active">
-        <div class="mask" style="background-color: rgba(0, 0, 0, 0.6); min-height: 0px;">
-          <div class="d-flex justify-content-center align-items-center h-100">
-            <div class="text-white text-center">
-              <h1 class="mb-3">Jojo's Bizarre Adventure</h1>
-            </div>
-          </div>
+          <ul class="navbar-nav list-inline">
+            <!-- Icons -->
+            <li class="nav-item">
+              <a class="nav-link" href="https://youtu.be/hmpJqJLsR48?si=shiN_7ur8yquwxr_" rel="nofollow"
+                target="_blank">
+                <i class="fab fa-youtube"></i>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="https://www.facebook.com/groups/jojosbizarreadventuregroup/" rel="nofollow"
+                target="_blank">
+                <i class="fab fa-facebook-f"></i>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="https://x.com/araki_jojo?s=21" rel="nofollow" target="_blank">
+                <i class="fab fa-twitter"></i>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="https://github.com/mdbootstrap/mdb-ui-kit" rel="nofollow" target="_blank">
+                <i class="fab fa-github"></i>
+              </a>
+            </li>
+          </ul>
         </div>
       </div>
+    </nav>
+    <!-- Navbar -->
 
-      <!-- Single item -->
-      <div class="carousel-item">
-        <div class="mask" style="background-color: rgba(0, 0, 0, 0.3); min-height: 0px;">
-          <div class="d-flex justify-content-center align-items-center h-100">
-            <div class="text-white text-center">
-              <h2>You can place here any content</h2>
-            </div>
-          </div>
-        </div>
+    <!-- Carousel wrapper -->
+    <div id="introCarousel" class="carousel slide carousel-fade shadow-2-strong" data-bs-ride="carousel">
+      <!-- Indicators -->
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#introCarousel" data-bs-slide-to="0" class="active" aria-current="true"
+          aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#introCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#introCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
       </div>
 
-      <!-- Single item -->
-      <div class="carousel-item">
-        <div class="mask" style="
+      <!-- Inner -->
+      <div class="carousel-inner">
+        <!-- Single item -->
+        <div class="carousel-item active">
+          <div class="carousel-caption-box">
+            <h2>Dans une Angleterre du 19e siècle, deux jeunes hommes que tout oppose s’affrontent pour l'honneur et leurs valeurs.
+              Masques anciens, passions intenses et destins flamboyants s’entremêlent.
+              Découvrez la première partie de Jojo's Bizarre Adventure: Phantom Blood!</h2>
+          </div>
+          <div class="mask" style="
               background: linear-gradient(
                 45deg,
-                rgba(29, 236, 197, 0.7),
-                rgba(91, 14, 214, 0.7) 100%
+                rgba(0, 0, 0, 0.945),
+                rgba(30, 135, 221, 0.404) 100%
               );
               min-height: 0px;
             ">
-          <div class="d-flex justify-content-center align-items-center h-100">
-            <div class="text-white text-center">
-              <h2>And cover it with any mask</h2>
-              <a class="btn btn-outline-light btn-lg m-2"
-                href="https://mdbootstrap.com/docs/standard/content-styles/masks/" target="_blank" role="button">Learn
-                about masks</a>
+            <div class="d-flex justify-content-center align-items-center h-100  ">
+              <div class="text-white text-center">
+                <h1 class="mb-3">Jojo's Bizarre Adventure</h1>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Single item -->
+        <div class="carousel-item">
+          <div class="mask" style="
+              background: linear-gradient(
+                45deg,
+                rgba(0, 0, 0, 0.945),
+                rgba(214, 14, 14, 0.7) 100%
+              );
+              min-height: 0px;
+            ">
+            <div class="d-flex justify-content-center align-items-center h-100">
+              <div class="text-white text-center">
+                <h1 class="mb-3">Jeu Officel All Star Battle R</h1>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Single item -->
+        <div class="carousel-item">
+          <div class="mask" style="
+              background: linear-gradient(
+                45deg,
+                rgba(0, 0, 0, 0.945),
+                rgba(194, 214, 14, 0.7) 100%
+              );
+              min-height: 0px;
+            ">
+            <div class="d-flex justify-content-center align-items-center h-100">
+              <div class="text-white text-center">
+                <h1 class="mb-3">Actualités</h1>
+              </div>
             </div>
           </div>
         </div>
       </div>
+      <!-- Inner -->
+
+      <!-- Controls -->
+      <button class="carousel-control-prev" type="button" data-bs-target="#introCarousel" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#introCarousel" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
     </div>
-    <!-- Inner -->
+    <!-- Carousel wrapper -->
+  </header>
+  <!--Main Navigation-->
 
-    <!-- Controls -->
-    <button class="carousel-control-prev" type="button" data-bs-target="#introCarousel" data-bs-slide="prev">
-      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">Previous</span>
-    </button>
-    <button class="carousel-control-next" type="button" data-bs-target="#introCarousel" data-bs-slide="next">
-      <span class="carousel-control-next-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">Next</span>
-    </button>
-  </div>
-  <!-- Carousel wrapper -->
-</header>
-<!--Main Navigation-->
-
-<!-- Bootstrap 5.3 JS Bundle (inclut Popper) -->
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  <!-- Bootstrap 5.3 JS Bundle (inclut Popper) -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
 </body>
+
 </html>

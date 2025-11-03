@@ -40,10 +40,11 @@
   font-weight: bold;
 }
 
+
 /* Améliorer la navbar sur mobile */
 @media (max-width: 991px) {
   .navbar {
-    background: rgba(0, 0, 0, 0) !important;
+    background: rgb(0, 0, 0) !important;
   }
   
   .navbar-collapse {
@@ -51,5 +52,45 @@
     padding: 1rem;
     margin-top: 0.5rem;
     border-radius: 0.5rem;
+  }
+}
+
+.carousel-caption-box {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-image: url('../img/jojo_6.png');
+  background-position: center;
+  background-size: cover;
+  padding: 2rem 3rem;
+  border-radius: 1rem;
+  color: #fff;
+  text-align: center;
+  max-width: 80%;
+  backdrop-filter: blur(5px);
+  animation: fadeInUp 0.8s ease-in-out;
+}
+
+.carousel-caption-box h2 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+.carousel-caption-box p {
+  font-size: 1.1rem;
+  margin: 0;
+}
+
+/* Animation d’apparition */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translate(-50%, -40%);
+  }
+  to {
+    opacity: 1;
+    transform: translate(-50%, -50%);
   }
 }

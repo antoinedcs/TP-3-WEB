@@ -1,6 +1,6 @@
 /* CV Styles */
 .cv-section {
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  background: linear-gradient(135deg, #2734f0 0%, #003cff 100%);
   min-height: 100vh;
   padding-top: 100px;
 }
@@ -9,7 +9,7 @@
   background: white;
   border-radius: 15px;
   padding: 30px;
-  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 10px 30px rgba(236, 234, 234, 0.1);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
