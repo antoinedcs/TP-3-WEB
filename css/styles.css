@@ -106,12 +106,12 @@
   animation: fadeInUp 0.8s ease-in-out;
 }
 
-.carousel-caption-box1 {
+.carousel-caption-box2 {
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  background-image: url('../img/jojo_6.png');
+  background-image: url('../img/jojo_7');
   background-position: center;
   background-size: cover;
   padding: 2rem 3rem;
@@ -123,12 +123,12 @@
   animation: fadeInUp 0.8s ease-in-out;
 }
 
-.carousel-caption-box1 {
+.carousel-caption-box3 {
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  background-image: url('../img/jojo_6.png');
+  background-image: url('../img/jojo_5.png');
   background-position: center;
   background-size: cover;
   padding: 2rem 3rem;
@@ -145,6 +145,35 @@
   font-weight: bold;
   margin-bottom: 0.5rem;
   color: #fff;
+  text-shadow:
+    3px 3px 0 #000,
+    -3px 3px 0 #000,
+    -3px -3px 0 #000,
+    3px -3px 0 #000;
+}
+
+.carousel-caption-box2 h2 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+  color: #fff;
+  text-shadow:
+    3px 3px 0 #000,
+    -3px 3px 0 #000,
+    -3px -3px 0 #000,
+    3px -3px 0 #000;
+}
+
+.carousel-caption-box3 h2 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+  color: #fff;
+  text-shadow:
+    3px 3px 0 #000,
+    -3px 3px 0 #000,
+    -3px -3px 0 #000,
+    3px -3px 0 #000;
 }
 
 .carousel-caption-box p {
