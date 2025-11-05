@@ -174,3 +174,12 @@
     page-break-inside: avoid;
   }
 }
+
+.btn {
+  background-color: #667eea;
+  color: white;
+  border: 2px solid #0704d3;
+  padding: 10px 20px;
+  border-radius: 20px;
+  transition: background-color 0.3s ease;
+}
