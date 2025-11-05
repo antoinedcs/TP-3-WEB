@@ -1,0 +1,121 @@
+.jojo-part {
+  padding: 2rem;
+  margin-bottom: 2rem;
+  border-radius: 15px;
+  transition: transform 0.3s ease;
+  color: #000000;
+}
+
+.jojo-part:hover {
+  transform: translateY(-5px);
+}
+
+.part-1 {
+  background-color: #f8d7da;
+}
+
+.part-2 {
+  background-color: #d1ecf1;
+}
+
+.part-3 {
+  background-color: #d4edda;
+}
+
+.part-4 {
+  background-color: #fff3cd;
+}
+
+.part-5 {
+  background-color: #e2e3e5;
+}
+
+.part-6 {
+  background-color: #cce5ff;
+}
+
+.part-7 {
+  background-color: #f5f5f5;
+}
+
+.part-8 {
+  background-color: #ffe5d9;
+}
+
+.part-9 {
+  background-color: #e8d4f1;
+}
+
+.part-1 p {
+  color: #000000;
+}
+
+.part-2 p {
+  color: #000000;
+}
+
+.part-3 p {
+  color: #000000;
+}
+
+.part-4 p {
+  color: #000000;
+}
+
+.part-5 p {
+  color: #000000;
+}
+
+.part-6 p {
+  color: #000000;
+}
+
+.part-7 p {
+  color: #000000;
+}
+
+.part-8 p {
+  color: #000000;
+}
+
+.part-9 p {
+  color: #000000;
+}
+
+header {
+    background-image: url('../img/jojo_11.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    position: relative;
+    color: rgb(0, 0, 0);
+}
+
+header::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 1;
+}
+
+header .container {
+    position: relative;
+    z-index: 2;
+}
+
+h1 {
+  color: white;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+  font-weight: bold;
+}
+
+h2 {
+  color: rgb(0, 0, 0);
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+  font-weight: bold;
+}

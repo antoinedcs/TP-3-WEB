@@ -201,7 +201,6 @@
   .carousel-caption-box3 {
     padding: 0.75rem 1rem;
     max-height: 180px;
-    /* limite la hauteur du bloc */
     box-sizing: border-box;
   }
 
@@ -209,14 +208,11 @@
   .carousel-caption-box2 h2,
   .carousel-caption-box3 h2 {
     font-size: 1.50rem;
-    /* plus petit sur mobile */
     line-height: 1.25;
     margin: 0;
-    /* tronquer après N lignes (compatible WebKit et modernes) */
     display: -webkit-box;
     -webkit-box-orient: vertical;
     -webkit-line-clamp: 4;
-    /* changez le nombre de lignes si besoin */
     overflow: hidden;
     text-overflow: ellipsis;
   }

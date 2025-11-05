@@ -10671,7 +10671,7 @@ header.masthead {
   position: relative;
   margin-bottom: 3rem;
   padding-top: calc(8rem + 57px);
-  padding-bottom: 8rem;
+  padding-bottom: 13.5rem;
   background: no-repeat center center;
   background-color: #6c757d;
   background-size: cover;
@@ -10685,6 +10685,8 @@ header.masthead:before {
   right: 0;
   bottom: 0;
   background-image: url('../img/jojo_10.png');
+  background-repeat: no-repeat;
+  background-size: cover;
   opacity: 0.5;
 }
 header.masthead .page-heading,
