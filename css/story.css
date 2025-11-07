@@ -4,6 +4,8 @@
   border-radius: 15px;
   transition: transform 0.3s ease;
   color: #000000;
+  background-color: rgba(255, 255, 255, 0.9);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
 }
 
 .jojo-part:hover {
@@ -82,28 +84,34 @@
   color: #000000;
 }
 
-header {
+body {
     background-image: url('../img/jojo_11.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    background-attachment: fixed;
     min-height: 100vh;
-    position: relative;
-    color: rgb(0, 0, 0);
+    margin: 0;
+    padding: 0;
 }
 
-header::before {
+body::before {
     content: '';
-    position: absolute;
+    position: fixed;
     top: 0;
     left: 0;
     right: 0;
     bottom: 0;
-    background: rgba(0, 0, 0, 0.5);
+    background: rgba(0, 0, 0, 0.7);
+    z-index: 0;
+}
+
+.container {
+    position: relative;
     z-index: 1;
 }
 
-header .container {
+.navbar {
     position: relative;
     z-index: 2;
 }
